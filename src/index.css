@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F5F5F0;
+    color: #2C3E50;
+    @apply font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    background-color: #3A7CA5;
+    @apply inline-block text-white font-sans font-medium px-8 py-3 rounded-lg
+           transition-colors duration-200 text-center;
+  }
+  .btn-primary:hover {
+    background-color: #1F5F85;
+  }
+
+  .btn-outline {
+    border-color: #3A7CA5;
+    color: #3A7CA5;
+    @apply inline-block border-2 font-sans font-medium px-8 py-3 rounded-lg
+           transition-colors duration-200 text-center;
+  }
+  .btn-outline:hover {
+    background-color: #3A7CA5;
+    color: #ffffff;
+  }
+
+  .btn-gold {
+    background-color: #E8B84B;
+    @apply inline-block text-white font-sans font-semibold px-8 py-3 rounded-lg
+           transition-colors duration-200 text-center;
+  }
+  .btn-gold:hover {
+    background-color: #C89525;
+  }
+
+  .section-title {
+    color: #2C3E50;
+    @apply font-serif text-3xl md:text-4xl mb-4;
+  }
+
+  .section-subtitle {
+    color: #4A5568;
+    @apply font-sans text-lg leading-relaxed;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200;
+  }
+}
