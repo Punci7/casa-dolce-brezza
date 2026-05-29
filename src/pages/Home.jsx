@@ -171,24 +171,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIANZA / CITAZIONE */}
-      <section
-        className="py-20 px-4 sm:px-6"
-        style={{ background: 'linear-gradient(135deg, #3A7CA5 0%, #1F5F85 100%)' }}
-      >
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="text-gold text-5xl font-serif mb-6">"</div>
-          <blockquote className="font-serif text-xl sm:text-2xl text-white leading-relaxed italic mb-8">
-            Mia madre vive qui da due anni. Non l'ho mai vista così serena e attiva.
-            Casa Dolce Brezza è diventata davvero la sua casa.
-          </blockquote>
-          <cite className="text-white/70 font-sans text-sm not-italic">
-            — Marco T., figlio di una nostra ospite
-          </cite>
-        </div>
-      </section>
-
-      {/* CTA FINALE */}
+{/* CTA FINALE */}
       <section className="py-20 px-4 sm:px-6 bg-warm">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="section-title mb-4">
